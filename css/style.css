@@ -1,0 +1,144 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #1B2473;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 45px;
+  width: 600px;
+  height: 412px;
+  border-radius: 20px;
+  background: #FFFFFF;
+}
+
+.link {
+  display: flex;
+  align-self: flex-end;
+  padding-right: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #1A226B;
+  text-decoration: none;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 50px;
+  color: #787878;
+}
+
+.text {
+  color: #787878;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.label {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+}
+
+.label::before {
+  content: '*';
+  position: absolute;
+  left: -9px;
+  top: 26px;
+  color: #787878;
+  font-size: 18px;
+}
+
+.message {
+  position: absolute;
+  bottom: -22px;
+  left: 0;
+  color: #CB2424;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.input {
+  width: 95%;
+  border-radius: 10px;
+  border: 2px solid #787878;
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.error-input {
+  border: 1px solid #CB2424;
+}
+
+.submit-button {
+  align-self: center;
+  width: 180px;
+  height: 52px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #FFF;
+  background: #1A226B;
+}
+
+.submit-button:hover {
+  transform: skew(-1deg);
+}
+
+.checkbox-label {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  display: block;
+}
+
+.checkbox-label::before {
+  top:7px;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+}
+
+.checkbox-info {
+  color: #787878;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; 
+}
+
+.checkbox-message {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  color: #CB2424;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 2px;
+}

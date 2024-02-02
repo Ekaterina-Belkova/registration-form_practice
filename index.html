@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <main class="main">
+
+    <form class="form" id="form-login" action="">
+      <span class="link" id="reg" >Зарегистрироваться</span>
+      <h2 class="heading">Вход</h2>
+
+      <label class="label" for="email">
+        <span class="text">Email</span>
+        <input class="input" type="text" id="email" placeholder="johndoe@email.com">
+        <span class="message"></span>
+      </label>
+
+      <label class="label" for="password">
+        <span class="text">Пароль</span>
+        <input class="input" type="password" id="password" placeholder="Введите пароль">
+        <span class="message"></span>
+      </label>
+
+      <label class="label checkbox-label" for="check">
+        <input class="checkbox" type="checkbox" name="check">
+        <span class="checkbox-info">Я согласен с <u>Правилами пользования приложением</u></span>
+        <span class="message"></span>
+      </label>
+
+      <button class="submit-button" type="submit">Вход</button>
+    </form>
+  </main>
+</body>
+</html>
