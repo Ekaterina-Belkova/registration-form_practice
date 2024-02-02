@@ -16,3 +16,5 @@
 1. Клонируйте репозиторий на свой локальный компьютер.
 2. Откройте файл index.html в вашем любимом браузере.
 3. Изучите код. По желанию, экспериментируйте и внесите свои изменения!
+
+[Макет проекта в Figma] (https://www.figma.com/file/0HR7B7N3uK1s9QcBoPg7NH/Form-Style%2F-Media-Queries?type=design&node-id=0-1&mode=design&t=WqnO0rIpOvFH3OnV-0 "Переход к макету")
